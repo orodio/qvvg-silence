@@ -1,19 +1,6 @@
 {
   "name": "@qvvg/silence",
   "version": "0.1.0",
-  "description": "silences",
-  "author": "qvvg <npm@qv.vg>",
-  "license": "MIT",
-  "source": "src/silence.js",
-  "main": "dist/silence.js",
-  "module": "dist/silence.mjs",
-  "unpkg": "dist/silence.mjs",
-  "files": ["dist"],
-  "scripts": {
-    "build": "microbundle",
-    "watch": "microbundle watch"
-  },
-  "devDependencies": {
-    "microbundle": "^0.11.0"
-  }
+  "module": "silence.mjs",
+  "unpkg": "silence.mjs"
 }
